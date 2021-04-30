@@ -65,6 +65,8 @@ function Cards() {
 
 `}</style>
 </Helmet>
+
+
 <div className="row">
 <div className="card col-md-4">
   <div calssName="row" style={{marginTop:"2rem"}}>

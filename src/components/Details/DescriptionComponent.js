@@ -11,17 +11,17 @@ function DescriptionComponent({ description }) {
             <p>{description}</p>
           </div>
           <div className="d-md-flex align-stretch">
-            <div className="col-md-6">
-              <img src={image} alt={"hello"} className="" />
+            <div className="col-md-8">
+              <img src={image} alt={"hello"}  />
             </div>
-            <div className="text-center font-weight-bold text-dark col-md-6 justify-content-center d-flex align-center">
+            <div className="text-center font-weight-bold text-dark col-md-4 justify-content-center d-flex align-center">
               <p className="align-self-center">view location</p>
             </div>
           </div>
         </div>
         <div className="col-md-4">
           <div className='text-center border pt-2 pb-4 px-4 rounded capitalize hover'>
-            <img src={image} alt="hello" className= 'mb-3 rounded-circle' />
+            <img src={"https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=1&w=500"} alt="hello" className= 'mb-3 ' style={{borderRadius:"50%",width:"250px"}} />
             <p className='color-primary h5 mb-1'>Virginia Mull</p>
             <p className=' '>to get contract request</p>
             <form>

@@ -10,7 +10,9 @@ function PropertyItem({ listing }) {
     <Link to={`/search_property/${id}`} className='col-sm-12 col-md-4 car-link d-block' >
       <div className="property-card">
         <div className="w-100 top">
+
           <img src={`/server/${image}`} alt={title} className="w-100" />
+          
           <div className="ovalay">
             <div className="">
               <button className="btn bg-yellow" style={{borderRadius:0}}>Verified</button>
